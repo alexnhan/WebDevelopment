@@ -91,6 +91,70 @@
 			background-size: 20px 20px;
 		}
 
+		.break {
+			clear:both;
+		}
+
+		#newsbar {
+			background-color: #990000;
+			width:100%;
+			height: 100px;
+			color:white;
+			position: relative;
+			top:-4px;
+		}
+		
+		#newsbar p {
+			margin:0;
+			padding: 0;
+			padding-top:10px;
+			float:left;
+		}
+		
+		#newsheader {
+			font-size:3em;
+		}
+		
+		#uk {
+			font-size:0.7em;
+			padding-left: 20px;
+		}
+		
+		#rss {
+			float:right;
+			margin: 38px;
+		}
+		
+		#rss img {
+			height:14px;
+		}
+		
+		#topicmenu {
+		}
+		
+		#topicmenu ul {
+			background-color: #3e0c0d;
+			padding:5px;
+			margin-top:-25px;
+			height:19px;
+		}
+		
+		#topicmenu li {
+			list-style:none;
+			font-size:0.71em;
+			border-right: 1px solid #990000;
+			float:left;
+			padding:2px 6px 0 6px;
+		}
+		
+		.selected {
+			background-color:#EDEDED;
+			color:#666666;
+			height:21px;
+			position:relative;
+			top:-4px;
+			padding-top:6px !important;
+		}
 		
 	</style>
 	
@@ -127,6 +191,37 @@
 					<input type="text" placeholder="Search" />
 				</div>				
 			</div>
+			
+			<div class="break"> </div>
+			
+			<div id="newsbar">
+				<div class="fixedwidth">
+					<p id="newsheader">NEWS<span id="uk">UK</span></p>
+					<div id="rss">
+						RSS <img src="images/rss.png" />
+					</div>
+					<div class="break"></div>
+					<div id="topicmenu">
+						<ul>
+							<li>Home</li>
+							<li>World</li>
+							<li class="selected">UK</li>
+							<li>England</li>
+							<li>N. Ireland</li>
+							<li>Scottland</li>
+							<li>Wales</li>
+							<li>Business</li>
+							<li>Politics</li>
+							<li>Health</li>
+							<li>Education</li>
+							<li>Sci/Environment</li>
+							<li>Technology</li>
+							<li style="border-right:none">Entertainment & Arts</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
 		</div>
 	</div>
 </body>
