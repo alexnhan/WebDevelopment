@@ -195,10 +195,13 @@
 		
 		.newsitem a {
 			color:#1f4f82;
+		}
+		
+		a {
 			text-decoration:none;
 		}
 		
-		.newsitem a:hover {
+		a:hover {
 			text-decoration:underline;
 		}
 		
@@ -220,6 +223,79 @@
 			background-position:left center;
 			background-size:15px 20px;
 			padding-left:18px;
+		}
+		
+		#watchlisten {
+			background-color:#EEEEEE;
+			float:right;
+			width:314px;
+			position:relative;
+			top:-80px;
+			height:340px;
+		}
+		
+		h2 {
+			color:#505050;
+			margin:10px 0 10px 10px;
+			font-size:1.8em;
+			
+		}
+		
+		.boxes {
+			float:right;
+			height:18px;
+			width:50px;
+			margin:20px 10px 0 0;
+		}
+		
+		.leftarrow {
+			float:left;
+			border-right:1px solid white;
+			height:165px;
+			width:30px;
+		}
+		
+		.rightarrow {
+			float:left;
+			border-right:1px solid white;
+			height:166px;
+			width:30px;
+			position:relative;
+			top:-1px;
+		}
+		
+		.wlblock {
+			float:left;
+			background-color:#d1700e;
+			width:125px;
+			height:165px;
+			border-right:1px solid white;
+		}
+		
+		.wlblock a {
+			color:white;
+		}
+		
+		.wlblock p {
+			margin:14px 10px 10px 10px;
+			font-size:0.9em;
+		}
+		
+		#watchlisten ul {
+			list-style-image: url('images/live.png');
+			margin:0;
+			padding:0 0 0 50px;
+			position:relative;
+			top:10px;
+		}
+		
+		#watchlisten li {
+			font-size:1.3em;
+			padding: 10px 0 10px 0;
+		}
+		
+		.BB {
+			border-bottom: 1px solid #DDDDDD;
 		}
 				
 	</style>
@@ -294,7 +370,7 @@
 				<div class="fixedwidth">
 					<p><span class="date">2 April 2014</span> Last updated at 15:23</p>
 					<h1><a href="">Pollution to spread across England</a></h1>
-					<img class="headlineimage" src="images/headlineimage.png" height=350px width=450px />
+					<img class="headlineimage" src="images/headlineimage.png" height=280px width=450px />
 					
 					<div class="newsitem">
 						<p>Health warnings have been issued by the government as pollution spreading across England is forecast to hit high levels.</p>
@@ -303,6 +379,25 @@
 						<a class="video" href="">How Saharan dust reached the UK</a><br />
 						<a href="">What will pollution do to us?</a><br />
 						<a class="sound" href="">How Saharan dust reached the UK</a></p>
+					</div>
+					<div id="watchlisten">
+						<img src="images/boxes.png" class="boxes" />
+						<h2>Watch/Listen</h2>
+						<img src="images/leftarrow.png" class="leftarrow" />
+						<div class="wlblock">
+							<img src="images/pic1.png" height=100px width=125px />
+							<p><a href="">Titanic letter could fetch €100,000</a></p>						
+						</div>
+						<div class="wlblock">
+							<img src="images/pic2.png" height=100px width=125px />
+							<p><a href="">Cameron defends 'Muppet' remark</a></p>						
+						</div>
+						<img src="images/rightarrow.png" class="rightarrow" />
+						<ul>
+							<li class="BB"><a href="">BBC News Channel</a></li>
+							<li class="BB"><a href="">Radio 5 live</a></li>
+							<li><a href="">Osborne questioned on budget</a></li>
+						</ul>
 					</div>
 				</div>
 			</div>
