@@ -1,0 +1,290 @@
+		body {
+			margin:0;
+			font-family:verdana;
+		}
+	
+		#topbar {
+			background-color: #7a0000;
+			width:100%;
+			height: 40px;
+			color:white;
+		}
+		
+		.fixedwidth {
+			width: 1050px;
+			margin: 0 auto;
+		}
+		
+		
+		#logodiv {
+			padding-top:5px;
+			float:left;
+			border-right: 1px solid #990000;
+			padding-right: 10px;
+		}
+		
+		#signindiv {
+			font-weight: bold;
+			font-size: 0.9em;
+			padding-right:80px;
+			padding-left:20px;
+			float:left;
+			border-right: 1px solid #990000;
+			position:relative;
+			bottom:4px;
+		}
+		
+		#signindiv img {
+			position:relative;
+			top:4px;
+		}
+		
+		#signindiv span {
+			position: relative;
+			bottom:11px;
+			left: 5px;
+		}
+			
+		#topmenudiv {
+			float: left;
+		}
+		
+		#topmenudiv ul {
+			margin:0;
+			padding:0;
+			float:left;
+		}
+		
+		#topmenudiv li {
+			list-style:none;
+			font-weight:bold;
+			font-size:0.9em;
+			border-right: 1px solid #990000;
+			height:100%;
+			padding:10px 20px 12px 20px;
+			float:left;
+		}
+		
+		#searchdiv {
+			float:left;
+			width:10px;
+			padding: 7px 10px 0 10px;
+		}
+		
+		#searchdiv input {
+			border:none;
+			height: 25px;
+			font-size: 0.9em;
+			background-image:url("images/magnify.png");
+			background-repeat:no-repeat;
+			padding-left:8px;
+			background-position:right center;
+			background-size: 20px 20px;
+		}
+
+		.break {
+			clear:both;
+		}
+
+		#newsbar {
+			background-color: #990000;
+			width:100%;
+			height: 100px;
+			color:white;
+			position: relative;
+			top:-4px;
+		}
+		
+		#newsbar p {
+			margin:0;
+			padding: 0;
+			padding-top:10px;
+			float:left;
+		}
+		
+		#newsheader {
+			font-size:3em;
+		}
+		
+		#uk {
+			font-size:0.7em;
+			padding-left: 20px;
+		}
+		
+		#rss {
+			float:right;
+			margin: 38px;
+		}
+		
+		#rss img {
+			height:14px;
+		}
+		
+		#topicmenu {
+		}
+		
+		#topicmenu ul {
+			background-color: #3e0c0d;
+			padding:5px;
+			margin-top:-25px;
+			height:19px;
+		}
+		
+		#topicmenu li {
+			list-style:none;
+			font-size:0.71em;
+			border-right: 1px solid #990000;
+			float:left;
+			padding:2px 6px 0 6px;
+		}
+		
+		.selected {
+			background-color:#EDEDED;
+			color:#666666;
+			height:21px;
+			position:relative;
+			top:-4px;
+			padding-top:6px !important;
+		}
+		
+		#content {
+			width:100%;
+			color:#535353;
+			font-size:0.75em;
+			
+		}
+		
+		.date {
+			font-weight:bold;
+		}
+		
+		h1 {
+			font-size:2.5em;
+		}
+		
+		h1 a {
+			color: #1f4f82;
+			text-decoration:none;
+		}
+		
+		h1:hover {
+			text-decoration:underline;
+		}
+		
+		.headlineimage {
+			float:left;
+		}
+		
+		.newsitem {
+			position:relative;
+			left:10px;
+			width:260px;
+			float:left;
+			top:-15px;
+			font-size:1.1em;
+		}
+		
+		.newsitem a {
+			color:#1f4f82;
+		}
+		
+		a {
+			text-decoration:none;
+		}
+		
+		a:hover {
+			text-decoration:underline;
+		}
+		
+		.video {
+			background-image:url("images/triangle.png");
+			background-repeat:no-repeat;
+			background-position:left center;
+			background-size:15px 20px;
+			padding-left:18px;
+		}
+		
+		.links {
+			line-height:1.8em;
+		}
+		
+		.sound {
+			background-image:url("images/sound.png");
+			background-repeat:no-repeat;
+			background-position:left center;
+			background-size:15px 20px;
+			padding-left:18px;
+		}
+		
+		#watchlisten {
+			background-color:#EEEEEE;
+			float:right;
+			width:314px;
+			position:relative;
+			top:-80px;
+			height:340px;
+		}
+		
+		h2 {
+			color:#505050;
+			margin:10px 0 10px 10px;
+			font-size:1.8em;
+			
+		}
+		
+		.boxes {
+			float:right;
+			height:18px;
+			width:50px;
+			margin:20px 10px 0 0;
+		}
+		
+		.leftarrow {
+			float:left;
+			border-right:1px solid white;
+			height:165px;
+			width:30px;
+		}
+		
+		.rightarrow {
+			float:left;
+			border-right:1px solid white;
+			height:166px;
+			width:30px;
+			position:relative;
+			top:-1px;
+		}
+		
+		.wlblock {
+			float:left;
+			background-color:#d1700e;
+			width:125px;
+			height:165px;
+			border-right:1px solid white;
+		}
+		
+		.wlblock a {
+			color:white;
+		}
+		
+		.wlblock p {
+			margin:14px 10px 10px 10px;
+			font-size:0.9em;
+		}
+		
+		#watchlisten ul {
+			list-style-image: url('images/live.png');
+			margin:0;
+			padding:0 0 0 50px;
+			position:relative;
+			top:10px;
+		}
+		
+		#watchlisten li {
+			font-size:1.3em;
+			padding: 10px 0 10px 0;
+		}
+		
+		.BB {
+			border-bottom: 1px solid #DDDDDD;
+		}
