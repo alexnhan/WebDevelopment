@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+	<title>Learning JavaScript</title>
+	<meta charset="utf-8" />
+	<neta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<style>
+		#circle {
+			background-color:red;
+  		  	border-radius:100px;
+  		  	height: 200px;
+  		  	width: 200px;
+		}
+	</style>
+
+</head>
+
+<body>
+	
+	<p id="arrayString"></p>
+
+	<script type="text/javascript">
+		var arrayString="";
+		var myArray=["pizza","chocolate","crisps"];
+		for(i in myArray)
+		{
+			if(i < myArray.length-1)
+				arrayString=arrayString+myArray[i]+' ';
+			else
+				arrayString=arrayString+myArray[i];
+		}
+		document.getElementById("arrayString").innerHTML = arrayString;
+	</script>
+	
+</body>
+</html>
