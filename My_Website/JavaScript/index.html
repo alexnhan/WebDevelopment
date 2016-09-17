@@ -3,36 +3,32 @@
 <head>
 	<title>Learning JavaScript</title>
 	<meta charset="utf-8" />
-	<neta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	
 	<style>
-		#circle {
+		body{
+			font-family:Verdana, Geneva, sans-serif;
+		}
+		#box {
+			width:200px;
+			height:200px;
 			background-color:red;
-  		  	border-radius:100px;
-  		  	height: 200px;
-  		  	width: 200px;
+			display:none;
+			position:relative;
+		}
+		.bold {
+			font-weight:bold;
 		}
 	</style>
-
 </head>
-
 <body>
 	
-	<p id="arrayString"></p>
+	<h1>Test your reactions!</h1>
+	<p>Click on the boxes and circles as quickly as you can!</p>
+	<p class="bold">Your time: <span id="time">(not attempted yet)</span></p>
+	<div id="box"></div>	
 
-	<script type="text/javascript">
-		var arrayString="";
-		var myArray=["pizza","chocolate","crisps"];
-		for(i in myArray)
-		{
-			if(i < myArray.length-1)
-				arrayString=arrayString+myArray[i]+' ';
-			else
-				arrayString=arrayString+myArray[i];
-		}
-		document.getElementById("arrayString").innerHTML = arrayString;
-	</script>
-	
+	<script type="text/javascript" src="scripts.js"></script>
+
 </body>
 </html>
